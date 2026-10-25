@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Assets/image\ 2\(1\).svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    background-color: #0E1A12;
+    background-image: linear-gradient(rgba(14, 26, 18, 0.8), rgba(14, 26, 18, 0.6)), url(../Assets/image\ 2\(1\).svg);
+}
+
+.cabecalho {
+    position: relative;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 18px;
+    list-style: none;
+    border-top: 20%;
+}
+
+.menu li {
+    margin-right: 30px;
+}
+
+.menu a {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cabecalho button {
+    background-color: #e6e6e6;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    padding: 6px 30px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+span {
+    color: #F2C230;
+}
+
+.frase {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    left: 80px;
+
+
+}
+
+.conteudo {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.linha {
+    border: none;
+    border-top: 2px solid;
+    width: 80%;
+    color: #0E1A12;
+}
+
+.sobre {
+    color: #F2C230;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 35px;
+}
+
+.sobre-texto {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 18px;
+    line-height: 1.6;
+}
